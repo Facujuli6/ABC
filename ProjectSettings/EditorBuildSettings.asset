@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 9716e7d855a41fb40b9ac9d36dd9ef4a
   - enabled: 1
-    path: Assets/Scenes/Abecedario.unity
-    guid: dbbf44f93504b0042a6d0af6f1f8a0ee
+    path: Assets/Scenes/Numeros.unity
+    guid: 69721975ae96b7b429220e5a4b7ef8c0
+  - enabled: 1
+    path: Assets/Scenes/Abecedario1.unity
+    guid: c6dba07b1040a9e4fa2061d25a29c4f0
   - enabled: 1
     path: Assets/Scenes/Animales.unity
     guid: 3b416cf5611c540468da1480b1c61474
   - enabled: 1
-    path: Assets/Scenes/Numeros.unity
-    guid: 69721975ae96b7b429220e5a4b7ef8c0
+    path: Assets/Scenes/Abecedario.unity
+    guid: dbbf44f93504b0042a6d0af6f1f8a0ee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -5,10 +5,11 @@ using UnityEngine.UI;
 public class BackButton : MonoBehaviour
 {
     [SerializeField] private Button backButton;
+    [SerializeField] private string menuSceneName = "Menu";
 
     private void Awake()
     {
-        // Ensure the button triggers the scene rollback when pressed.
+        // Ensure the button loads the menu scene when pressed.
         if (backButton == null)
         {
             backButton = GetComponent<Button>();
@@ -16,7 +17,7 @@ public class BackButton : MonoBehaviour
 
         if (backButton != null)
         {
-            backButton.onClick.AddListener(LoadPreviousScene);
+            backButton.onClick.AddListener(LoadMenuScene);
         }
         else
         {
@@ -28,22 +29,25 @@ public class BackButton : MonoBehaviour
     {
         if (backButton != null)
         {
-            backButton.onClick.RemoveListener(LoadPreviousScene);
+            backButton.onClick.RemoveListener(LoadMenuScene);
         }
     }
 
-    private void LoadPreviousScene()
+    private void LoadMenuScene()
     {
-        var activeScene = SceneManager.GetActiveScene();
-        int previousIndex = activeScene.buildIndex - 1;
-
-        if (previousIndex >= 0)
+        if (string.IsNullOrEmpty(menuSceneName))
         {
-            SceneManager.LoadScene(previousIndex);
+            Debug.LogWarning("BackButton: El nombre de la escena de menu no esta configurado.");
+            return;
+        }
+
+        if (Application.CanStreamedLevelBeLoaded(menuSceneName))
+        {
+            SceneManager.LoadScene(menuSceneName);
         }
         else
         {
-            Debug.LogWarning("BackButton: No existe una escena anterior en Build Settings.");
+            Debug.LogWarning($"BackButton: La escena \"{menuSceneName}\" no esta en Build Settings.");
         }
     }
 }
