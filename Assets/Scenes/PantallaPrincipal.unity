@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pantalla1
   botonInicio: {fileID: 364744463}
+  botonSalir: {fileID: 1993191906}
   nombreEscenaMenu: Menu
 --- !u!114 &1224578505
 MonoBehaviour:
@@ -553,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901136764126917945, guid: a49e26f984afeb84f98686aacf087534, type: 3}
       propertyPath: m_Name
-      value: PlayButton2
+      value: QuitButton
       objectReference: {fileID: 0}
     - target: {fileID: 6726810350869821346, guid: a49e26f984afeb84f98686aacf087534, type: 3}
       propertyPath: m_Text
@@ -706,6 +707,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1190737301172856915, guid: a49e26f984afeb84f98686aacf087534, type: 3}
   m_PrefabInstance: {fileID: 1680068434}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1993191906 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5788198459306590507, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+  m_PrefabInstance: {fileID: 1680068434}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3417068172925194946
 PrefabInstance:
   m_ObjectHideFlags: 0
