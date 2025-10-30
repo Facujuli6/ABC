@@ -21,8 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Animales.unity
     guid: 3b416cf5611c540468da1480b1c61474
   - enabled: 1
-    path: Assets/Scenes/Abecedario.unity
-    guid: dbbf44f93504b0042a6d0af6f1f8a0ee
+    path: Assets/Scenes/AbecedarioWichi.unity
+    guid: be54c3b6c76af7f46998ae459fcbc0d9
+  - enabled: 1
+    path: Assets/Scenes/NumerosWichi.unity
+    guid: 89b922d3dbee9d647a72aa9087aa9ac1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
