@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7250474239843288655}
   - component: {fileID: 189951874798873823}
   - component: {fileID: 6277382453280494087}
-  - component: {fileID: 1980071797871386603}
   - component: {fileID: 1671786902083015775}
   m_Layer: 0
   m_Name: Back
@@ -122,21 +121,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1980071797871386603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7388795490214037291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -7}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1671786902083015775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,3 +134,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackButton
   backButton: {fileID: 6277382453280494087}
+  menuSceneName: Menu

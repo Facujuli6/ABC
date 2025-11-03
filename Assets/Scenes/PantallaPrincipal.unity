@@ -127,6 +127,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1224578508}
     m_Modifications:
+    - target: {fileID: 3397267619284992095, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 145f9f42fbe978947a25b213c84e7c2b, type: 3}
+    - target: {fileID: 3397267619284992095, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397267619284992095, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397267619284992095, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5372549
+      objectReference: {fileID: 0}
     - target: {fileID: 4102118623893267525, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
       propertyPath: m_Name
       value: PlayButton
@@ -209,6 +225,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6300607193492459147, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634051816055665951, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_UseGraphicAlpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634051816055665951, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_EffectDistance.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634051816055665951, guid: e3497edc76662af4c8222507d652ff9b, type: 3}
+      propertyPath: m_EffectDistance.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -552,9 +580,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2425272208531496431, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425272208531496431, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+      propertyPath: m_Color.g
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425272208531496431, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2901136764126917945, guid: a49e26f984afeb84f98686aacf087534, type: 3}
       propertyPath: m_Name
       value: QuitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132489668281689195, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+      propertyPath: m_EffectDistance.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132489668281689195, guid: a49e26f984afeb84f98686aacf087534, type: 3}
+      propertyPath: m_EffectDistance.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -817,6 +865,18 @@ PrefabInstance:
     - target: {fileID: 8999745811033767477, guid: d6360b5807deef9409c5d8774f3ea042, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999745811033767477, guid: d6360b5807deef9409c5d8774f3ea042, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999745811033767477, guid: d6360b5807deef9409c5d8774f3ea042, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999745811033767477, guid: d6360b5807deef9409c5d8774f3ea042, type: 3}
+      propertyPath: m_Color.r
+      value: 0.98039216
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
