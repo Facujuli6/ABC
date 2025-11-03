@@ -13,8 +13,11 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
+              "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
-              "Assets/Scenes/NumerosWichi.unity"
+              "Assets/Scenes/NumerosWichi.unity",
+              "Assets/Scenes/PantallaPrincipal.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -24,8 +27,11 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
+              "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
-              "Assets/Scenes/NumerosWichi.unity"
+              "Assets/Scenes/NumerosWichi.unity",
+              "Assets/Scenes/PantallaPrincipal.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -35,8 +41,11 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
+              "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
-              "Assets/Scenes/NumerosWichi.unity"
+              "Assets/Scenes/NumerosWichi.unity",
+              "Assets/Scenes/PantallaPrincipal.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -327,6 +336,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -436,6 +446,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -493,6 +504,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -524,6 +536,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -1490,6 +1503,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -1561,6 +1575,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",
@@ -1580,6 +1595,7 @@
             "scenes": [
               "Assets/Scenes/Abecedario1.unity",
               "Assets/Scenes/AbecedarioWichi.unity",
+              "Assets/Scenes/Animales.unity",
               "Assets/Scenes/Menu.unity",
               "Assets/Scenes/Numeros.unity",
               "Assets/Scenes/NumerosWichi.unity",

@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 1224578506}
   - component: {fileID: 1224578505}
   - component: {fileID: 1224578504}
+  - component: {fileID: 1224578509}
   m_Layer: 5
   m_Name: PantallaPrincipal
   m_TagString: Untagged
@@ -352,7 +353,7 @@ MonoBehaviour:
   botonSalir: {fileID: 1993191906}
   nombreEscenaMenu: Menu
   usarAnimacionAntesDeCargar: 0
-  animadorTransicion: {fileID: 0}
+  animadorTransicion: {fileID: 1224578509}
   triggerAnimacion: Play
   tiempoEsperaAnimacion: 0.5
   deshabilitarBotonDuranteTransicion: 1
@@ -441,6 +442,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1224578509
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224578503}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0370b3626632e6b41ab3299c619ae661, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1680068434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -791,6 +814,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 89c89d31cbb023d4a87840ff06fe110e, type: 3}
+    - target: {fileID: 8999745811033767477, guid: d6360b5807deef9409c5d8774f3ea042, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 3208750231499580756}
   - component: {fileID: 5373500240823334041}
   - component: {fileID: 3206531572642686247}
+  - component: {fileID: 7980118142437297837}
   m_Layer: 0
   m_Name: Logo
   m_TagString: Untagged
@@ -187,3 +188,25 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -7}
   m_UseGraphicAlpha: 1
+--- !u!95 &7980118142437297837
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655292528505543450}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 03ccfd28bfe77f44f86a9d387bb36a98, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

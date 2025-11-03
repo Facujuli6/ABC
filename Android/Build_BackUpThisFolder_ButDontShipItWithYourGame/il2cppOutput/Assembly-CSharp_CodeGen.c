@@ -22,7 +22,15 @@ extern void Pantalla1_Awake_m7FD64F09EF36AFDE4A30559AD1C9B2C80624BAB4 (void);
 extern void Pantalla1_OnDestroy_mB7061C7FB7CA8B39ADE30B2C22A91D11E616CFAC (void);
 extern void Pantalla1_IrAlMenu_m82C79E474707B30D18DC32E005D0C4A3AD5C67A0 (void);
 extern void Pantalla1_SalirDelJuego_m2B52A598C180A54F1D4015EAD41AE35ED7B0BF75 (void);
+extern void Pantalla1_ManejarInicio_m2451FB6ACB34B0CDABA9BC791515B1419339F755 (void);
+extern void Pantalla1_ReproducirAnimacionYCargar_m50725DF9B518DF7C427FD56A5E79BD53254C35D6 (void);
 extern void Pantalla1__ctor_m84C5C5DB6F2EEBBE54E16CA507974280FBB886EC (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14__ctor_m887EC37DC6629590ECFBB0BB4138D691600BC99F (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14_System_IDisposable_Dispose_mD8ADAEA7197B45801EE185DB9E7B4330543BE0DC (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14_MoveNext_m57F2FF9FE8874E5DD3954590B30411889FE61007 (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5255E52792A8067DBC786D917F10E2325D881F9B (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_IEnumerator_Reset_mEE42527118D74A2074B272EA43C4A8C5F97C781B (void);
+extern void U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_IEnumerator_get_Current_mA56D1C3A3C460450E7BAEA373EFE03663BD9711C (void);
 extern void PantallaAbc_Awake_m25660DD9AAA9F1052BDBDCD7E2022A2CBA82B2F0 (void);
 extern void PantallaAbc_OnDestroy_m766FD7950A7BEE716066CE6474F62ADC1AE8D124 (void);
 extern void PantallaAbc_IrAlAbecedario_m50D84CB9CC2073A885FE72DA19142F3C9BF48D17 (void);
@@ -37,7 +45,7 @@ extern void PantallaButton_IrNumeros_m78E5B493995C3A163A700B655DFB8EEB39FD5034 (
 extern void PantallaButton__ctor_mB30961ED89602F8D8EECF2ACE08B9C3DD8019AD5 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[30] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	BackButton_Awake_mF37E2E6845E92214C5CFE0C2D6B3753E0E02EE55,
 	BackButton_OnDestroy_m48B370C00C8D741A709472D4C6E640DF8C6C3213,
@@ -54,7 +62,15 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	Pantalla1_OnDestroy_mB7061C7FB7CA8B39ADE30B2C22A91D11E616CFAC,
 	Pantalla1_IrAlMenu_m82C79E474707B30D18DC32E005D0C4A3AD5C67A0,
 	Pantalla1_SalirDelJuego_m2B52A598C180A54F1D4015EAD41AE35ED7B0BF75,
+	Pantalla1_ManejarInicio_m2451FB6ACB34B0CDABA9BC791515B1419339F755,
+	Pantalla1_ReproducirAnimacionYCargar_m50725DF9B518DF7C427FD56A5E79BD53254C35D6,
 	Pantalla1__ctor_m84C5C5DB6F2EEBBE54E16CA507974280FBB886EC,
+	U3CReproducirAnimacionYCargarU3Ed__14__ctor_m887EC37DC6629590ECFBB0BB4138D691600BC99F,
+	U3CReproducirAnimacionYCargarU3Ed__14_System_IDisposable_Dispose_mD8ADAEA7197B45801EE185DB9E7B4330543BE0DC,
+	U3CReproducirAnimacionYCargarU3Ed__14_MoveNext_m57F2FF9FE8874E5DD3954590B30411889FE61007,
+	U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5255E52792A8067DBC786D917F10E2325D881F9B,
+	U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_IEnumerator_Reset_mEE42527118D74A2074B272EA43C4A8C5F97C781B,
+	U3CReproducirAnimacionYCargarU3Ed__14_System_Collections_IEnumerator_get_Current_mA56D1C3A3C460450E7BAEA373EFE03663BD9711C,
 	PantallaAbc_Awake_m25660DD9AAA9F1052BDBDCD7E2022A2CBA82B2F0,
 	PantallaAbc_OnDestroy_m766FD7950A7BEE716066CE6474F62ADC1AE8D124,
 	PantallaAbc_IrAlAbecedario_m50D84CB9CC2073A885FE72DA19142F3C9BF48D17,
@@ -70,7 +86,7 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[30] = 
+static const int32_t s_InvokerIndices[38] = 
 {
 	14411,
 	14411,
@@ -88,6 +104,14 @@ static const int32_t s_InvokerIndices[30] =
 	14411,
 	14411,
 	14411,
+	14195,
+	14411,
+	10803,
+	14411,
+	14008,
+	14195,
+	14411,
+	14195,
 	14411,
 	14411,
 	14411,
@@ -100,14 +124,14 @@ static const int32_t s_InvokerIndices[30] =
 	14411,
 	14411,
 	14411,
-	25157,
+	25158,
 	14411,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	30,
+	38,
 	s_methodPointers,
 	0,
 	NULL,

@@ -299,6 +299,7 @@ UnityEngine.AnimationCurve::set_keys_Injected
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables_Injected
 UnityEngine.Animator::StringToHash_Injected
+UnityEngine.Animator::Play_Injected
 UnityEngine.Animator::ResetTriggerString_Injected
 UnityEngine.Animator::SetTriggerString_Injected
 UnityEngine.Application::CanStreamedLevelBeLoaded_Injected
