@@ -367,6 +367,11 @@ MonoBehaviour:
   botonInicio: {fileID: 364744463}
   botonSalir: {fileID: 1993191906}
   nombreEscenaMenu: Menu
+  usarAnimacionAntesDeCargar: 0
+  animadorTransicion: {fileID: 0}
+  triggerAnimacion: Play
+  tiempoEsperaAnimacion: 0.5
+  deshabilitarBotonDuranteTransicion: 1
 --- !u!114 &1224578505
 MonoBehaviour:
   m_ObjectHideFlags: 0
