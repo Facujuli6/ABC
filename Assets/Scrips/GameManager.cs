@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,12 +21,27 @@ public class GameManager : MonoBehaviour
     public Button[] replyButtons;
 
     [Header("Score")]
+    public Score scoreManager;
     public Score score;
     public int correctReply = 10;
     public int wrongReply = 5;
+    public TextMeshProUGUI scoreText;
 
+    [Header("correctReplyIndex")]
+    public int correctReplyIndex;
+    int correctReplies;
+
+    [Header("Game Finished Panel")]
+    public GameObject GameFinished;
     void Start()
     {
+        if (scoreManager != null)
+        {
+            scoreManager.ResetScore();
+        }
+
+        if (GameFinished != null)
+            GameFinished.SetActive(false);
         SelectCategory(0) ;
     }
 
@@ -48,6 +64,9 @@ public class GameManager : MonoBehaviour
     {
         // Check if a category has been selected
         if (selectedCategory == null) return;
+
+        ResetButtons();
+
 
         // Get the current question from the selected category
         var question = selectedCategory.questions[currentQuestionIndex];
@@ -73,12 +92,13 @@ public class GameManager : MonoBehaviour
         // Check if the selected reply is correct
         if (replyIndex == selectedCategory.questions[currentQuestionIndex].correctReplyIndex)
         {
-            score.AddScore(correctReply) ;
+            score.AddScore(correctReply);
+            correctReplies++;
             Debug.Log("Correct Reply!");
         }
         else
         {
-            score.SubtractScore(wrongReply) ;
+            score.SubtractScore(wrongReply);
             Debug.Log("Wrong Reply!");
         }
 
@@ -90,9 +110,54 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            ShowGameFinishedPanel();
             Debug.Log("Quiz Finished!");
             // Implement what happens when the quiz is finished (e.g., show results, restart, etc.)
         }
+    }
+    public void ShowCorrectReply()
+    {
+        correctReplyIndex = selectedCategory.questions[currentQuestionIndex].correctReplyIndex;
+
+        for (int i = 0; i < replyButtons.Length; i++)
+        {
+            if (i == correctReplyIndex)
+            {
+                replyButtons[i].interactable = true;
+            }
+            else
+            {
+                replyButtons[i].interactable = false;
+            }
+        }
+    }
+
+    public void ResetButtons()
+    {
+        foreach (var button in replyButtons)
+        {
+            button.interactable = true;
+        }
+    }
+
+    public void ShowGameFinishedPanel()
+    {
+        GameFinished.SetActive(true);
+        scoreText.text = "" + correctReplies + " / " + selectedCategory.questions.Length;
+    }
+    public void RestartQuiz()
+    {
+        if (GameFinished != null) GameFinished.SetActive(false);
+
+        correctReplies = 0;
+        currentQuestionIndex = 0;
+
+        // Reinicia el score desde el ScoreManager
+        if (scoreManager != null)
+            scoreManager.ResetScore();
+
+        ResetButtons();
+        DisplayQuestion();
     }
 }
 
