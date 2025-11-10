@@ -14,19 +14,83 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuestionData
   category: Animals 1
   questions:
-  - questionText: Que animal es?
+  - questionText: QUE ANIMAL ES?
     replies:
-    - Leon
-    - Perro
-    - Gato
-    - Zorro
-    correctReplyIndex: 2
-    questionImage: {fileID: 21300000, guid: 40cc30e0527a8ed499251b53aca4a2a4, type: 3}
-  - questionText: Que color es?
+    - LEON
+    - PERRO
+    - GATO
+    - LORO
+    correctReplyIndex: 3
+    questionImage: {fileID: -2324977736984992863, guid: 52f11aa2635240b42a359388f1c414dc, type: 3}
+  - questionText: QUE ANIMAL ES?(W)
     replies:
-    - Verde
-    - Azul
-    - Naranja
-    - Rojo
+    - ATSHA
+    - MITSI
+    - "CHAL\u2019A"
+    - ELE
     correctReplyIndex: 1
-    questionImage: {fileID: -4688316852560028888, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
+    questionImage: {fileID: 8287117865654127346, guid: 14a6b308b355c2d4c9705f153fdcb5d9, type: 3}
+  - questionText: QUE ANIMAL ES?
+    replies:
+    - PERRO
+    - JIRAFA
+    - MONO
+    - LORO
+    correctReplyIndex: 2
+    questionImage: {fileID: 593761992941134638, guid: e384dc0f6867e7d4d90be38f758fd9ee, type: 3}
+  - questionText: QUE ANIMAL ES?(W)
+    replies:
+    - "IN\xC4TE"
+    - KALAK
+    - "FWIT\xC4NAJ"
+    - HOKWINAJ
+    correctReplyIndex: 3
+    questionImage: {fileID: 5383466214260513148, guid: efb514675487e054d9fc145376d0ed4f, type: 3}
+  - questionText: QUE ANIMAL ES?
+    replies:
+    - TUCAN
+    - PALOMA
+    - GATO
+    - CAPIBARA
+    correctReplyIndex: 0
+    questionImage: {fileID: 5485495423466332112, guid: 652ec968a030f99479d7be52fe31170c, type: 3}
+  - questionText: QUE ANIMAL ES?(W)
+    replies:
+    - "CH\u2019ENHO"
+    - "FWIT\xC4NAJ"
+    - "K\u2019ATAK"
+    - "\xC4NH\xC4L\xC4TAJ"
+    correctReplyIndex: 3
+    questionImage: {fileID: 5339739365999967830, guid: 5cd9609097f684c419bee36eccc95c44, type: 3}
+  - questionText: QUE ANIMAL ES?
+    replies:
+    - PERRO
+    - CABALLO
+    - LEON
+    - TIGRE
+    correctReplyIndex: 1
+    questionImage: {fileID: -6409589709359621591, guid: 7eda824a1ff22f94fb4fbc21af35d7ed, type: 3}
+  - questionText: QUE ANIMAL ES?(W)
+    replies:
+    - "W\u2019IYES"
+    - "YAPIN\u2019A"
+    - "CHAL\u2019A"
+    - "CH\u2019ENHO"
+    correctReplyIndex: 3
+    questionImage: {fileID: 7281874756934051608, guid: 61ad75b86c530aa4ea66ac500aa50fbb, type: 3}
+  - questionText: QUE ANIMAL ES?
+    replies:
+    - PERRO
+    - GATO
+    - PEZ
+    - MONO
+    correctReplyIndex: 0
+    questionImage: {fileID: 5796003916156797448, guid: 6618ba65c6e157640b679e43821d8ebb, type: 3}
+  - questionText: QUE ANIMAL ES?
+    replies:
+    - PALOMA
+    - TAPIR
+    - GALLO
+    - LEON
+    correctReplyIndex: 2
+    questionImage: {fileID: -7744751933534277095, guid: d3871714ac1f1744e8768a835eb8e3b1, type: 3}
