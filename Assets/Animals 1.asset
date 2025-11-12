@@ -22,7 +22,7 @@ MonoBehaviour:
     - LORO
     correctReplyIndex: 3
     questionImage: {fileID: -2324977736984992863, guid: 52f11aa2635240b42a359388f1c414dc, type: 3}
-  - questionText: QUE ANIMAL ES?(W)
+  - questionText: "ATSI ITSH\xC4WET\_TA\_H\xC4PE?"
     replies:
     - ATSHA
     - MITSI
@@ -38,7 +38,7 @@ MonoBehaviour:
     - LORO
     correctReplyIndex: 2
     questionImage: {fileID: 593761992941134638, guid: e384dc0f6867e7d4d90be38f758fd9ee, type: 3}
-  - questionText: QUE ANIMAL ES?(W)
+  - questionText: "ATSI ITSH\xC4WET\_TA\_H\xC4PE?"
     replies:
     - "IN\xC4TE"
     - KALAK
@@ -54,7 +54,7 @@ MonoBehaviour:
     - CAPIBARA
     correctReplyIndex: 0
     questionImage: {fileID: 5485495423466332112, guid: 652ec968a030f99479d7be52fe31170c, type: 3}
-  - questionText: QUE ANIMAL ES?(W)
+  - questionText: "ATSI ITSH\xC4WET\_TA\_H\xC4PE?"
     replies:
     - "CH\u2019ENHO"
     - "FWIT\xC4NAJ"
@@ -70,7 +70,7 @@ MonoBehaviour:
     - TIGRE
     correctReplyIndex: 1
     questionImage: {fileID: -6409589709359621591, guid: 7eda824a1ff22f94fb4fbc21af35d7ed, type: 3}
-  - questionText: QUE ANIMAL ES?(W)
+  - questionText: "ATSI ITSH\xC4WET\_TA\_H\xC4PE?"
     replies:
     - "W\u2019IYES"
     - "YAPIN\u2019A"

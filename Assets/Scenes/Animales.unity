@@ -1522,8 +1522,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 116.62}
-  m_SizeDelta: {x: 836.93, y: 233.2381}
+  m_AnchoredPosition: {x: 2.5, y: 116.62}
+  m_SizeDelta: {x: 841.9299, y: 233.2381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829501014
 MonoBehaviour:
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Question
+  m_text: QUESTION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c89028eb390b55f43ac2e19667455d7d, type: 2}
   m_sharedMaterial: {fileID: 8835101167197853905, guid: c89028eb390b55f43ac2e19667455d7d, type: 2}
@@ -2756,7 +2756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: JUEGO TERMINADO
+  m_text: "JUEGO TERMINADO \n\nNOJ N'OKOYEK"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

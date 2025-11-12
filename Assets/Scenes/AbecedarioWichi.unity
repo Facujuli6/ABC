@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507859432945969710, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -965.58
+      value: -984.05
       objectReference: {fileID: 0}
     - target: {fileID: 1507859432945969710, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -268,11 +268,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507859432945969710, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.013671875
+      value: 9.106079
       objectReference: {fileID: 0}
     - target: {fileID: 1507859432945969710, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 1507859432945969710, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -292,15 +292,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5647803857698096890, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_Text
-      value: WEENHAYEK
+      value: "N'OLHA\xD1HI FWETES"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647803857698096890, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647803857698096890, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322202719026852200, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 779.24493
       objectReference: {fileID: 0}
     - target: {fileID: 8322202719026852200, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_SizeDelta.y
       value: 155.44
       objectReference: {fileID: 0}
     - target: {fileID: 8322202719026852200, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.20473
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322202719026852200, guid: 82d9575fe39e82d4ab8c2b2d7a75d33d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -6.7751
+      value: -6.7751007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
